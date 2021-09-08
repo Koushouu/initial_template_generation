@@ -11,7 +11,7 @@ Initial template generation scripts.
   * File name format: {tomogram_prefix}{tomoID_number}.mrc. e.g. HIVtomo_12.mrc. 
   * All tomograms should be in the same folder
 
-####Generate *.cmm files: Pick particles manually on Chimera GUI
+#### Generate *.cmm files: Pick particles manually on Chimera GUI
 
 1. Open Chimera, load the tomogram
 
