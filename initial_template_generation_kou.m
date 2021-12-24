@@ -24,6 +24,7 @@ OutputTblName = [cmm_dir '/' cmm_prefix 'combinedTbl.tbl'];
 %% Generate tbl file for particle coordinates =============================
 cmm2tbl(cmm_dir, cmm_prefix, tomoIDs, tilt, OutputTblName);
 %% Extract subtomograms ===================================================
+mkdir(project_dir);
 create_tomodoc(tomogram_dir, tomogram_prefix, tomoIDs, tomo_docName);
 dynamo_table_crop(tomo_docName, OutputTblName, subtom_dir, subtom_boxsize);
 %% Change directory to the project folder and launch an alignment project
